@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+# Uncomment if you have package lock files:
+# packages.lock.json
+
+# Node (if your project has React or other Node components)
+node_modules/
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
+*.exe
+*.dll
+
+# Publish output folder (if you have one)
+publish/
