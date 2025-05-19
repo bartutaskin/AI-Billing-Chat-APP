@@ -1,15 +1,24 @@
-# SE4458 AI Billing Chat App
+# SE4458 AI Billing Monorepo
 
 This repository combines the following three components of the AI-powered billing system:
 
-- **AI-CHAT-APP**: Frontend chat application where users can interact with the system
-- **AI-AGENT**: Backend service with an AI agent that interprets user inputs and generates requests
-- **API-GATEWAY**: API layer that connects the AI agent with billing services
+- **AI-CHAT-APP**: Frontend chat application where users can interact with the system  
+  🔗 [Standalone Repository](https://github.com/bartutaskin/SE4458-AI-CHAT-APP)
+
+- **AI-AGENT**: Backend service with an AI agent that interprets user inputs and generates requests  
+  🔗 [Standalone Repository](https://github.com/bartutaskin/SE4458-AI-AGENT)
+
+- **API-GATEWAY**: API layer that connects the AI agent with billing services  
+  🔗 [Standalone Repository](https://github.com/bartutaskin/SE4458-API-GATEWAY)
 
 Each component is maintained in its own directory:
+
 📁 AI-CHAT-APP
+
 📁 AI-AGENT
+
 📁 API-GATEWAY
+
 
 ## 📦 Structure
 
