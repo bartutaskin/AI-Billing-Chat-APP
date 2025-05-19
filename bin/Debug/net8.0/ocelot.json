@@ -1,0 +1,91 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/v1/Auth/login",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Auth/login",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/Auth/register",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Auth/register",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/Bill/calculate",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Bill/calculate",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/Bill/pay",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Bill/pay",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/QueryBill/query",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/QueryBill/query",
+            "UpstreamHttpMethod": [ "GET" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/QueryBillDetailed/query-detailed",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/QueryBillDetailed/query-detailed",
+            "UpstreamHttpMethod": [ "GET" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/v1/Usage/usage",
+            "DownstreamScheme": "https",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "mobileproviderbt-egbra3excxgpfndy.italynorth-01.azurewebsites.net",
+                    "Port": 443
+                }
+            ],
+            "UpstreamPathTemplate": "/gateway/Usage/usage",
+            "UpstreamHttpMethod": [ "POST" ]
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7097"
+    }
+}

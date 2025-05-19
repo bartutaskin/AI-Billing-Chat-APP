@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2nFtc0jNPJvtizHpHzy0eqGR4RXClxlB/fwvhSnUDlc=",
+  "Source": "MobileProviderApiGateway",
+  "BasePath": "_content/MobileProviderApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
