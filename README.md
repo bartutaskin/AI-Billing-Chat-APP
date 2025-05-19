@@ -73,6 +73,7 @@ dotnet run
 
 ## 🔗 Related Repositories
 
-- 📦 [MobileProviderAPI](https://github.com/bartutaskin/MobileProviderAPI) – Main backend services
-- 💬 [Chat UI App](https://github.com/bartutaskin/SE4458-AI-CHAT-APP) – React-based AI chat assistant (optional integration)
+- [MobileProviderAPI](https://github.com/bartutaskin/MobileProviderAPI) – Main backend services
+- [Chat UI App](https://github.com/bartutaskin/SE4458-AI-CHAT-APP) – React-based AI chat assistant (optional integration)
+- [AI Agent](https://github.com/bartutaskin/SE4458-AI-AGENT) AI agent backend that processes user queries and interacts with billing APIs.
 
