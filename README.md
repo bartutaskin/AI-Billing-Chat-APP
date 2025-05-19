@@ -1,4 +1,4 @@
-# SE4458 AI Billing Monorepo
+# SE4458 AI Billing Chat App
 
 This repository combines the following three components of the AI-powered billing system:
 
