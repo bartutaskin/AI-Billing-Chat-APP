@@ -1,4 +1,4 @@
-# SE4458 AI Billing Chat APP
+# AI Billing Chat APP
 
 This repository combines the following three components of the AI-powered billing system:
 
